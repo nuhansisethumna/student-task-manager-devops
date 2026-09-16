@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 
-tasks = []
+tasks = ["Complete DevOps Assessment"]
 
 
 @app.route("/")
