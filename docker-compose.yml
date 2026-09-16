@@ -1,6 +1,6 @@
 services:
   web:
-    build: .
+    image: nuhansi/student-task-manager:latest
     container_name: student-task-manager
     ports:
       - "5000:5000"
